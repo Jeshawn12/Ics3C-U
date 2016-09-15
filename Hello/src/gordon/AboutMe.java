@@ -9,9 +9,9 @@ package gordon;
  */
 public class AboutMe {
 
-	/**
-	 * 
-	 * 
+	/** Aboutme.java
+	 * JeshawnGordon
+	 * 09/15/16
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated constructor stub
