@@ -9,8 +9,9 @@ package gordon;
  */
 public class JavaTerminology {
 
-	/**
-	 * @param args
+	/**Java.Terminology
+	 * jeshawnGordon
+	 * 20/9/16
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
