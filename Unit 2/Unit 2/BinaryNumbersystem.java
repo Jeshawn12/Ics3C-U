@@ -23,7 +23,7 @@ public class BinaryNumbersystem {
 		System.out.format("%15s %20s %20s","4","100","4 \n");
 		System.out.format("%15s %20s %20s","5","101","5 \n");
 		System.out.format("%15s %20s %20s","6","110","6 \n");
-		System.out.format("%15s %20s %20s","7","111","7 \n");
+		System.out.format("%15s %20s %20s","7","111","7 \n");                            
 		System.out.format("%15s %20s %20s","8","1000","8 \n");
 		System.out.format("%15s %20s %20s","9","1001","9 \n");
 		System.out.format("%15s %20s %20s","10","1010","A \n");
