@@ -21,46 +21,46 @@ public class Dice2 {
 		// TODO Auto-generated method stub
 		Scanner Scan = new Scanner (System.in);
 		DecimalFormat df = new DecimalFormat ("0.00");
-	
+
 		int die1;
 		int die2;
 		int player;
 		int computer;
 		int counter=2;
 		String anwser;
-	
-		
-	
-		
+
+
+
+
 		do{
-			
-			
-		die1 = (int)(Math.random()*6)+1;
-		die2 = (int)(Math.random()*6)+1;
-		
-		
-		player = die1+die2;
-		
-		System.out.println("User: " + player );
-		
-		die1 = (int)(Math.random()*6)+1;
-		die2 = (int)(Math.random()*6)+1;
-		
-		computer = die1+die2;
-		
-		System.out.println("Computer: " + computer);
-		
-		if (player > computer)
-			System.out.println("You Win");
-		else if(computer > player)
-			System.out.println("You Lose");
-			
-		else
-			System.out.println("Its a Tie");
-		
-		System.out.println("Would the user like to play again");
-		anwser = Scan.nextLine();
-		
+
+
+			die1 = (int)(Math.random()*6)+1;
+			die2 = (int)(Math.random()*6)+1;
+
+
+			player = die1+die2;
+
+			System.out.println("User: " + player );
+
+			die1 = (int)(Math.random()*6)+1;
+			die2 = (int)(Math.random()*6)+1;
+
+			computer = die1+die2;
+
+			System.out.println("Computer: " + computer);
+
+			if (player > computer)
+				System.out.println("You Win");
+			else if(computer > player)
+				System.out.println("You Lose");
+
+			else
+				System.out.println("Its a Tie");
+
+			System.out.println("Would the user like to play again");
+			anwser = Scan.nextLine();
+
 		}while(anwser.equals("yes"));
 
 

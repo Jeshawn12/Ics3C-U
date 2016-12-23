@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package gordon;
+
+/**
+ * @author 324003813
+ *
+ */
+public class Eggsales {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
