@@ -9,7 +9,12 @@ package gordon;
  * spelling out MISSISSIPPI using block letters
  *MISSISSIPPI
  */
+
 public class Mississippi {
+	
+	/**
+	 * Draws the letter M 
+	 */
 	public static void letterM(){
 		System.out.println("  M        M");
 		System.out.println("  MM      MM");
@@ -18,9 +23,11 @@ public class Mississippi {
 		System.out.println("  M        M");
 		System.out.println("  M        M");
 		System.out.println("  M        M");
-
 	}
 	
+	/**
+	 * Draws the letter I
+	 */
 	public static void letterI(){
 		System.out.println("     IIIII");
 		System.out.println("       I");
@@ -31,6 +38,9 @@ public class Mississippi {
 		System.out.println("     IIIII");
 	}
 	
+	/**
+	 * Draws the letter S
+	 */
 	public static void letterS(){
 		System.out.println("     SSSSS");
 		System.out.println("    S     S");
@@ -41,6 +51,10 @@ public class Mississippi {
 		System.out.println("     SSSSS");
 	}
 	
+	
+	/**
+	 * Draws the letter P
+	 */
 	public static void letterP(){
 		System.out.println("   PPPPPPPPP");
 		System.out.println("   PP      PP");
@@ -50,13 +64,7 @@ public class Mississippi {
 		System.out.println("   PP");
 		System.out.println("   PP");
 		System.out.println("   PP");
-		
-		
 	}
-
-	
-
-	
 	
 	/**
 	 * @param args
@@ -66,15 +74,25 @@ public class Mississippi {
 		// TODO Auto-generated method stub
 
 		letterM();
+		System.out.println();
 		letterI();
+		System.out.println();
 		letterS();
+		System.out.println();
 		letterS();
+		System.out.println();
 		letterI();
+		System.out.println();
 		letterS();
+		System.out.println();
 		letterS();
+		System.out.println();
 		letterI();
+		System.out.println();
 		letterP();
+		System.out.println();
 		letterP();
+		System.out.println();
 		letterI();
 	}
 
