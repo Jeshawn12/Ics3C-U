@@ -13,7 +13,9 @@ import hsa_new.Console;
 
 
 /**
- * @author 324003813
+ * @author Jeshawn Gordon
+ * A game of baseketball 21
+ * 25/01/17
  *
  */
 public class FinalProject {
@@ -142,18 +144,18 @@ public class FinalProject {
 		int counter = 0;
 		String answer = "yes";
 
-		c.println("Are you ready to shoot");
+		c.println("Are you ready to shoot (Type yes)");
 		yesno = c.readLine();
 		c.println("You shoot a freethrow");
+		c.drawImage(bufferImage[3],250,100, 500, 500, null);
 		for(int i = 0; i <  3; i++){
 			make = (double)(Math.random()*0.5)+1;
 			miss = (double)(Math.random()*0.5)+1;
 			if (make > miss){
 				counter  ++;
 				c.println("You made the shoot");
-				c.drawImage(bufferImage[3],250,100, 500, 500, null);
-
-				c.println("Are you ready to shot again! \n");
+				c.drawImage(bufferImage[2],250,100, 500, 500, null);
+				c.println("Are you ready to shot again! (Type yes) \n");
 				answer = c.readLine();
 
 			}else{
@@ -168,9 +170,11 @@ public class FinalProject {
 
 		if(three<.5){
 			c.println("You made a three");
+			c.drawImage(bufferImage[5],250,100, 500, 500, null);
 			counter = counter+3;
 		}else{
 			c.println("You made a two");
+			c.drawImage(bufferImage[7],250,100, 500, 500, null);
 			counter = counter+2;
 		}	
 		c.println(counter);
@@ -193,15 +197,14 @@ public class FinalProject {
 
 		c.println("You are on defence \n");
 		c.println("Kobe is shooting a freethrow \n");
-
+		c.drawImage(bufferImage[3],250,100, 500, 500, null);
 		for(int i = 0; i <  3; i++){
 			make = (double)(Math.random()*0.5)+1;
 			miss = (double)(Math.random()*0.5)+1;
 			if (make > miss){
 				counter2  ++;
 				c.println("Kobe made the shoot \n");
-
-
+				c.drawImage(bufferImage[6],250,100, 500, 500, null);
 				c.println("Kobe is shooting again!");
 
 
@@ -216,9 +219,11 @@ public class FinalProject {
 
 		if(three<.5){
 			c.println("Kobe with the three");
+			c.drawImage(bufferImage[1],250,100, 500, 500, null);
 			counter2 = counter2+3;
 		}else{
 			c.println("Kobe with the fade away two");
+			c.drawImage(bufferImage[6],250,100, 500, 500, null);
 			counter2 = counter2+2;
 		}
 		c.println(counter2);
